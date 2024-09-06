@@ -1,0 +1,21 @@
+{
+    "name": "Ifa Divination",
+    "short_name": "Ifa",
+    "description": "An Ifa Divination System",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "icons":[
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "types": "image/png"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "types": "image/png"
+        }
+    ]
+}
