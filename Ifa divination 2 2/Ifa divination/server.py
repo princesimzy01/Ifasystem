@@ -3,6 +3,7 @@ from flask_cors import CORS
 import sqlite3
 import random
 import spacy
+import os
 
 
 nlp = spacy.load('en_core_web_sm')
@@ -70,4 +71,5 @@ def divine():
 
 
 if __name__ == '__main__':
-    server.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    server.run(host='0.0.0.0', port=port)
